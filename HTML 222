@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HTML Tutorial - Practical Examples</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+  }
+  h1, h2 {
+    color: #2c3e50;
+  }
+  section {
+    background: white;
+    margin-bottom: 40px;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  pre {
+    background: #eee;
+    padding: 10px;
+    overflow-x: auto;
+    border-radius: 6px;
+  }
+  iframe {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 150px;
+    border-radius: 6px;
+  }
+</style>
+</head>
+<body>
+
+<h1>HTML Tutorial - Practical Examples</h1>
+
+<!-- HTML HOME -->
+<section id="html-home">
+  <h2>HTML HOME</h2>
+  <p>This is the main page of the HTML tutorial.</p>
+  <pre><code>&lt;h1&gt;Welcome to HTML Tutorial&lt;/h1&gt;</code></pre>
+  <iframe srcdoc="&lt;h1&gt;Welcome to HTML Tutorial&lt;/h1&gt;"></iframe>
+</section>
+
+<!-- HTML Introduction -->
+<section id="html-introduction">
+  <h2>HTML Introduction</h2>
+  <p>HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages.</p>
+  <pre><code>&lt;p&gt;HTML is the standard markup language for creating web pages.&lt;/p&gt;</code></pre>
+  <iframe srcdoc="&lt;p&gt;HTML is the standard markup language for creating web pages.&lt;/p&gt;"></iframe>
+</section>
+
+<!-- HTML Editors -->
+<section id="html-editors">
+  <h2>HTML Editors</h2>
+  <p>You can write HTML in any text editor like Notepad or advanced editors like VS Code.</p>
+  <pre><code>&lt;!-- You can write HTML in any text editor --&gt;</code></pre>
+  <iframe srcdoc="&lt;!-- You can write HTML in any text editor --&gt;"></iframe>
+</section>
+
+<!-- HTML Basic -->
+<section id="html-basic">
+  <h2>HTML Basic</h2>
+  <p>This is a basic example of an HTML page:</p>
+  <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+    &lt;p&gt;This is my first HTML page.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+  <iframe srcdoc="&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;title&gt;My First Page&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;Hello World&lt;/h1&gt;&lt;p&gt;This is my first HTML page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"></iframe>
+</section>
+
+<!-- Add more sections here as needed -->
+
+</body>
+</html>
