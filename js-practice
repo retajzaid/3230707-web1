@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>JavaScript Tutorial - Examples</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #eef6fc;
+  }
+  h1, h2 {
+    color: #2c3e50;
+  }
+  section {
+    background: white;
+    margin-bottom: 40px;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  code {
+    background: #f3f3f3;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: monospace;
+  }
+  button {
+    margin-top: 10px;
+  }
+  .output {
+    background: #dff0d8;
+    border: 1px solid #a3c293;
+    padding: 8px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    white-space: pre-wrap;
+  }
+</style>
+</head>
+<body>
+
+<h1>JavaScript Tutorial - Practical Examples</h1>
+
+<!-- JS HOME -->
+<section id="js-home">
+  <h2>JS HOME</h2>
+  <p>Welcome! Let's test some JavaScript code.</p>
+  <button onclick="alert('Welcome to JavaScript Tutorial!')">Click me</button>
+</section>
+
+<!-- JS Introduction -->
+<section id="js-intro">
+  <h2>JS Introduction</h2>
+  <p>This example shows a simple alert box:</p>
+  <button onclick="alert('Hello, this is JavaScript!')">Show Alert</button>
+</section>
+
+<!-- JS Where To -->
+<section id="js-where-to">
+  <h2>JS Where To</h2>
+  <p>JavaScript can be placed inside &lt;script&gt; tags or in external files.</p>
+  <p>This page uses &lt;script&gt; in the HTML file.</p>
+</section>
+
+<!-- JS Output -->
+<section id="js-output">
+  <h2>JS Output</h2>
+  <button onclick="document.getElementById('output1').innerText='Output using document.getElementById'">Show Output</button>
+  <div id="output1" class="output"></div>
+</section>
+
+<!-- JS Statements -->
+<section id="js-statements">
+  <h2>JS Statements</h2>
+  <button onclick="showStatements()">Run Statements</button>
+  <div id="output2" class="output"></div>
+</section>
+
+<!-- JS Syntax -->
+<section id="js-syntax">
+  <h2>JS Syntax</h2>
+  <p>Correct syntax example:</p>
+  <button onclick="syntaxExample()">Run Syntax Example</button>
+  <div id="output3" class="output"></div>
+</section>
+
+<!-- JS Comments -->
+<section id="js-comments">
+  <h2>JS Comments</h2>
+  <p>Check the code to see how comments are used (they do not affect output).</p>
+  <button onclick="commentsExample()">Click to see output</button>
+  <div id="output4" class="output"></div>
+</section>
+
+<!-- JS Variables -->
+<section id="js-variables">
+  <h2>JS Variables</h2>
+  <button onclick="variablesExample()">Show Variables</button>
+  <div id="output5" class="output"></div>
+</section>
+
+<!-- JS Let -->
+<section id="js-let">
+  <h2>JS Let</h2>
+  <button onclick="letExample()">Show let Example</button>
+  <div id="output6" class="output"></div>
+</section>
+
+<!-- JS Const -->
+<section id="js-const">
+  <h2>JS Const</h2>
+  <button onclick="constExample()">Show const Example</button>
+  <div id="output7" class="output"></div>
+</section>
+
+<!-- JS Operators -->
+<section id="js-operators">
+  <h2>JS Operators</h2>
+  <button onclick="operatorsExample()">Show Operators Example</button>
+  <div id="output8" class="output"></div>
+</section>
+
+<!-- JS Arithmetic -->
+<section id="js-arithmetic">
+  <h2>JS Arithmetic</h2>
+  <button onclick="arithmeticExample()">Show Arithmetic Example</button>
+  <div id="output9" class="output"></div>
+</section>
+
+<script>
+// JS Statements Example
+function showStatements() {
+  let a = 5;
+  let b = 10;
+  let result = a + b;
+  document.getElementById('output2').innerText = `a = ${a}\nb = ${b}\nresult = a + b = ${result}`;
+}
+
+// JS Syntax Example
+function syntaxExample() {
+  // Correct syntax example:
+  let message = "Hello, Syntax!";
+  document.getElementById('output3').innerText = message;
+}
+
+// JS Comments Example
+function commentsExample() {
+  // This is a single-line comment
+  /*
+    This is a multi-line comment
+  */
+  document.getElementById('output4').innerText = "Comments don't affect output!";
+}
+
+// JS Variables Example
+function variablesExample() {
+  var name = "Retaj";
+  let age = 25;
+  const country = "Jordan";
+  let output = `Name: ${name}\nAge: ${age}\nCountry: ${country}`;
+  document.getElementById('output5').innerText = output;
+}
+
+// JS Let Example
+function letExample() {
+  let x = 10;
+  {
+    let x = 20; // block scoped
+    document.getElementById('output6').innerText = `Inside block: x = ${x}`;
+  }
+  // outside block
+  document.getElementById('output6').innerText += `\nOutside block: x = 10`;
+}
+
+// JS Const Example
+function constExample() {
+  const PI = 3.14159;
+  document.getElementById('output7').innerText = `Constant PI = ${PI}`;
+  // Uncommenting next line will cause error:
+  // PI = 3; // Error: Assignment to constant variable.
+}
+
+// JS Operators Example
+function operatorsExample() {
+  let a = 10, b = 5;
+  let sum = a + b;
+  let diff = a - b;
+  let product = a * b;
+  let division = a / b;
+  let output = `a = ${a}, b = ${b}\nSum: ${sum}\nDifference: ${diff}\nProduct: ${product}\nDivision: ${division}`;
+  document.getElementById('output8').innerText = output;
+}
+
+// JS Arithmetic Example
+function arithmeticExample() {
+  let a = 15;
+  let b = 4;
+  let output = `
+  a + b = ${a + b}
+  a - b = ${a - b}
+  a * b = ${a * b}
+  a / b = ${a / b}
+  a % b = ${a % b} (modulus)
+  `;
+  document.getElementById('output9').innerText = output;
+}
+</script>
+
+</body>
+</html>
