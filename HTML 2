@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HTML Tutorial - Full Guide</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: #f9f9f9;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    section {
+      background: white;
+      margin-bottom: 30px;
+      padding: 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>HTML Tutorial - Full Guide</h1>
+
+  <section id="html-home">
+    <h2>HTML HOME</h2>
+    <p>Welcome to the HTML tutorial! HTML (HyperText Markup Language) is the standard language for creating web pages and web applications. This guide covers all the essential topics to get you started.</p>
+    <p><a href="https://www.w3schools.com/html/default.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-intro">
+    <h2>HTML Introduction</h2>
+    <p>HTML is a markup language that structures the content on the web. It consists of elements represented by tags that tell the browser how to display content.</p>
+    <p><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-editors">
+    <h2>HTML Editors</h2>
+    <p>You can write HTML code using simple text editors like Notepad (Windows) or TextEdit (Mac), but developers prefer specialized code editors such as VS Code, Sublime Text, or Atom for better productivity and features.</p>
+    <p><a href="https://www.w3schools.com/html/html_editors.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-basic">
+    <h2>HTML Basic</h2>
+    <p>HTML basic structure includes tags like &lt;html&gt;, &lt;head&gt;, &lt;title&gt;, and &lt;body&gt;. This structure forms the skeleton of every web page.</p>
+    <p><a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-elements">
+    <h2>HTML Elements</h2>
+    <p>Elements are the building blocks of HTML pages. They usually consist of a start tag, content, and an end tag.</p>
+    <p><a href="https://www.w3schools.com/html/html_elements.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-attributes">
+    <h2>HTML Attributes</h2>
+    <p>Attributes provide additional information about elements. They are always specified in the start tag and usually come in name/value pairs like <code>name="value"</code>.</p>
+    <p><a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-headings">
+    <h2>HTML Headings</h2>
+    <p>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags. &lt;h1&gt; defines the most important heading, &lt;h6&gt; the least.</p>
+    <p><a href="https://www.w3schools.com/html/html_headings.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-paragraphs">
+    <h2>HTML Paragraphs</h2>
+    <p>Paragraphs in HTML are defined with the &lt;p&gt; tag. Browsers automatically add some space before and after each paragraph.</p>
+    <p><a href="https://www.w3schools.com/html/html_paragraphs.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-styles">
+    <h2>HTML Styles</h2>
+    <p>HTML styles are used to add CSS to your web pages to change the look and feel of elements.</p>
+    <p><a href="https://www.w3schools.com/html/html_styles.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-formatting">
+    <h2>HTML Formatting</h2>
+    <p>Formatting tags in HTML like &lt;b&gt;, &lt;i&gt;, &lt;strong&gt;, &lt;em&gt; are used to change the appearance of text.</p>
+    <p><a href="https://www.w3schools.com/html/html_formatting.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-quotations">
+    <h2>HTML Quotations</h2>
+    <p>Quotations can be added using &lt;q&gt; and &lt;blockquote&gt; tags for short and long quotes respectively.</p>
+    <p><a href="https://www.w3schools.com/html/html_quotes.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-comments">
+    <h2>HTML Comments</h2>
+    <p>Comments are notes in the source code that are not displayed in the browser. They are written like this: <code>&lt;!-- Comment --&gt;</code>.</p>
+    <p><a href="https://www.w3schools.com/html/html_comments.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-colors">
+    <h2>HTML Colors</h2>
+    <p>Colors in HTML can be defined using names, HEX codes, RGB values, and more to style elements.</p>
+    <p><a href="https://www.w3schools.com/html/html_colors.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-css">
+    <h2>HTML CSS</h2>
+    <p>CSS (Cascading Style Sheets) is used to style HTML elements with colors, fonts, layouts, and more.</p>
+    <p><a href="https://www.w3schools.com/html/html_css.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-links">
+    <h2>HTML Links</h2>
+    <p>Links in HTML are created with the &lt;a&gt; tag, using the href attribute to specify the destination.</p>
+    <p><a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-images">
+    <h2>HTML Images</h2>
+    <p>Images can be added to HTML pages using the &lt;img&gt; tag with attributes like src and alt.</p>
+    <p><a href="https://www.w3schools.com/html/html_images.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-favicon">
+    <h2>HTML Favicon</h2>
+    <p>A favicon is the small icon that appears in the browser tab. It is added with a &lt;link&gt; tag in the &lt;head&gt; section.</p>
+    <p><a href="https://www.w3schools.com/html/html_favicon.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-page-title">
+    <h2>HTML Page Title</h2>
+    <p>The page title appears in the browser tab and is defined with the &lt;title&gt; tag inside the &lt;head&gt; section.</p>
+    <p><a href="https://www.w3schools.com/html/html_head.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-tables">
+    <h2>HTML Tables</h2>
+    <p>Tables are used to display tabular data using &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;, and &lt;th&gt; tags.</p>
+    <p><a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-lists">
+    <h2>HTML Lists</h2>
+    <p>Lists are used to group items using &lt;ul&gt; (unordered), &lt;ol&gt; (ordered), and &lt;li&gt; (list items) tags.</p>
+    <p><a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-block-inline">
+    <h2>HTML Block & Inline</h2>
+    <p>Block elements start on a new line and take full width (e.g., &lt;div&gt;, &lt;p&gt;), while inline elements take only the space needed (e.g., &lt;span&gt;, &lt;a&gt;).</p>
+    <p><a href="https://www.w3schools.com/html/html_block.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-div">
+    <h2>HTML Div</h2>
+    <p>The &lt;div&gt; tag is a block-level container used to group other elements and style them with CSS.</p>
+    <p><a href="https://www.w3schools.com/html/html_div.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+  <section id="html-classes">
+    <h2>HTML Classes</h2>
+    <p>Classes are used to classify elements and apply CSS styles to multiple elements with the same class name.</p>
+    <p><a href="https://www.w3schools.com/html/html_classes.asp" target="_blank">Learn more at W3Schools</a></p>
+  </section>
+
+</body>
+</html>
