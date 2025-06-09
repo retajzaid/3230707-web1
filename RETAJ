@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RETAJ - Profile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Hello! I'm RETAJ</h1>
+    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img" />
+    <p>I am a student in the Web Development 1 course.</p>
+    <p>This is my first project using HTML and CSS.</p>
+    <a href="https://github.com/retajzaid" target="_blank">Visit my GitHub</a>
+  </div>
+</body>
+</html>
